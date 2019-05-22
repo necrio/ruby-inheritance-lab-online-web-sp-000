@@ -16,7 +16,7 @@ def knowledge
 end
 
 def teach
-  return @knowledge.sample
+  return @knowledge.sample.to_s
 end
 
 
