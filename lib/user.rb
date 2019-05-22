@@ -16,7 +16,7 @@ def knowledge
 end
 
 def teach
-  return @knowledge.random
+  return @knowledge.rand
 end
 
 
